@@ -13,12 +13,14 @@ function tabUpdate() {
     const tab = event.target.dataset.id;
     const target = event.target;
     const id = event.target.id;
+    const listId = "li"+id;
 
     // Log Values
     console.log('Id: ', id);
+    console.log(listId);
     console.log('Updating Class 2...');
 
-    document.getElementById(id).classList.add('slds-is-active');
+    document.getElementById(ListId).classList.add('slds-is-active');
 
     // const att = document.createAttribute('class');
     // att.value = 'slds-is-active';
