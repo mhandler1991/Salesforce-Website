@@ -15,15 +15,14 @@ function tabUpdate() {
     const id = event.target.id;
 
     // Log Values
-    console.log('data-id: ', tab);
     console.log('Id: ', id);
-    console.log('Target: ', target);
     console.log('Updating Class...');
 
-    // Add Class
-    id.classList.add("slds-is-active");
+    const att = document.createAttribute('class');
+    att.value = 'slds-is-active';
+    id.setAttributeNote(att);
 
-    console.log('Added Class');
+    console.log('Added Class 2');
 
 }
 
