@@ -16,14 +16,14 @@ function log() {
 function tabUpdate() {
 
     // Get all Li Tabs
-    let liList = document.getElementsByClassName('slds-tabs_default__item');
-    console.log('liList Array: ', liList);
-    console.log('liList Length: ', liList.length);
+    let aArray = document.getElementsByClassName('slds-tabs_default__item');
+    console.log('liList Array: ', aArray);
+    console.log('liList Length: ', aArray.length);
 
     // Get all a Tabss
-    let aList = document.getElementsByClassName('slds-tabs_default__link');
-    console.log('aList Array: ', aList);
-    console.log('aList Length: ', aList.length);
+    let liArray = document.getElementsByClassName('slds-tabs_default__link');
+    console.log('aList Array: ', liArray);
+    console.log('aList Length: ', liArray.length);
 
     // Get Current Active Tab
     const activeTab = document.getElementsByClassName('slds-is-active');
