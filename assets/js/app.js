@@ -16,7 +16,7 @@ function tabUpdate() {
 
     // Log Values
     console.log('Id: ', id);
-    console.log('Updating Class...');
+    console.log('Updating Class 2...');
 
     document.getElementById(id).classList.add('slds-is-active');
 
