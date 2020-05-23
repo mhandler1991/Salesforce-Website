@@ -15,6 +15,16 @@ function log() {
 
 function tabUpdate() {
 
+    // Get all Li Tabs
+    let liList = document.getElementsByClassName('slds-tabs_default__item');
+    console.log('liList Array: ', liList);
+    console.log('liList Length: ', liList.length);
+
+    // Get all a Tabss
+    let aList = document.getElementsByClassName('slds-tabs_default__link');
+    console.log('aList Array: ', aList);
+    console.log('aList Length: ', aList.length);
+
     // Get Current Active Tab
     const activeTab = document.getElementsByClassName('slds-is-active');
     console.log('Active Tabs Length: ', activeTab.length);
