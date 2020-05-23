@@ -17,6 +17,14 @@ function log() {
 
 function tabUpdate() {
 
+    // Get Current Active Tab
+    const activeTab = document.getElementsByClassName('slds-is-active');
+    console.log(activeTab);
+    console.log('Removing Active Class');
+    // Remove Class
+    activeTab.classList.remove('slds-is-active');
+    console.log('Active Class Removed');
+
     // Get Values
     const tab = event.target.dataset.id;
     const target = event.target;
@@ -26,12 +34,12 @@ function tabUpdate() {
     // Log Values
     console.log('Id: ', id);
     console.log('li Id: ', listId);
-    console.log('Updating Class 3...');
+    console.log('Updating Class...');
 
     // Add Class to Tab
     document.getElementById(listId).classList.add('slds-is-active');
 
-    console.log('Added Class 3');
+    console.log('Class Added');
 
 
 }
