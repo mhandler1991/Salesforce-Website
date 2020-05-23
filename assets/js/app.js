@@ -10,12 +10,14 @@ function log() {
 
 function tabUpdate(id) {
 
-    // Log the function as run & Id of Tab
+    // Log that the Function Ran
     console.log("Tab with Id: ", id, " Clicked!");
-    console.log(id);
-    const role = document.getElementById(id).getAttribute('data-role');
-    console.log(role);
 
+    // Get Values
+    const role = document.getElementById(id).getAttribute('data-role');
+
+    // Log Values
+    console.log(role);
 
 }
 
