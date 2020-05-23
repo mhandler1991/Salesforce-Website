@@ -23,12 +23,12 @@ function tabUpdate() {
     // Log Values
     console.log('Id: ', id);
     console.log('li Id: ', listId);
-    console.log('Updating Class 2...');
+    console.log('Updating Class 3...');
 
     // Add Class to Tab
     document.getElementById(listId).classList.add('slds-is-active');
 
-    console.log('Added Class 2');
+    console.log('Added Class 3');
 
 
 }
