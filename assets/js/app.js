@@ -7,8 +7,6 @@
 function log() {
     console.log('%c ', 'font-size:1000px; background:url(https://media.makeameme.org/created/who-the-hell-31edeu.jpg) no-repeat;');
     console.log('MaxwellHandler.com');
-    console.warn('MaxwellHandler.com');
-    console.error('MaxwellHandler.com');
 }
 
 // *******************************
@@ -19,9 +17,10 @@ function tabUpdate() {
 
     // Get Current Active Tab
     const activeTab = document.getElementsByClassName('slds-is-active');
-    console.log(activeTab);
-    console.log('Removing Active Class');
+    console.log('Active Tab: ', activeTab);
+
     // Remove Class
+    console.log('Removing Active Class');
     activeTab.classList.remove('slds-is-active');
     console.log('Active Class Removed');
 
@@ -34,13 +33,11 @@ function tabUpdate() {
     // Log Values
     console.log('Id: ', id);
     console.log('li Id: ', listId);
+
+    // Add Class
     console.log('Updating Class...');
-
-    // Add Class to Tab
     document.getElementById(listId).classList.add('slds-is-active');
-
     console.log('Class Added');
-
 
 }
 
