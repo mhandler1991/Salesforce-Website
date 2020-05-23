@@ -10,10 +10,14 @@ function log() {
 function tabUpdate() {
 
     // Get Values
-    const tabId = event.target.dataset.id;
+    const tab = event.target.dataset.id;
+    const id = event.target.id;
 
     // Log Values
     console.log('data-id: ', tabId);
+    console.log('Id: ', id);
+
+    // tabId.classList.add("slds-is-active");
 
 }
 
