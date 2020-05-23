@@ -18,7 +18,7 @@ function tabUpdate() {
     const tab = event.target.dataset.id;
     const target = event.target;
     const id = event.target.id;
-    const listId = "litab"+id;
+    const listId = "li"+id;
 
     // Log Values
     console.log('Id: ', id);
