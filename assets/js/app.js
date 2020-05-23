@@ -18,6 +18,7 @@ function tabUpdate() {
     console.log('data-id: ', tab);
     console.log('Id: ', id);
     console.log('Target: ', target);
+    console.log('Updating Class...');
 
     // Add Class
     id.classList.add("slds-is-active");
