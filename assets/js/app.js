@@ -13,7 +13,7 @@ function tabUpdate(id) {
     // Log the function as run & Id of Tab
     console.log("Tab with Id: ", id, " Clicked!");
     console.log(id);
-    const role = getElementById(id).getAttribute('data-role');
+    const role = document.getElementById(id).getAttribute('data-role');
     console.log(role);
 
 
