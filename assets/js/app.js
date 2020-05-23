@@ -18,9 +18,11 @@ function tabUpdate() {
     console.log('Id: ', id);
     console.log('Updating Class...');
 
-    const att = document.createAttribute('class');
-    att.value = 'slds-is-active';
-    id.setAttributeNote(att);
+    document.getElementById(id).classList.add('slds-is-active');
+
+    // const att = document.createAttribute('class');
+    // att.value = 'slds-is-active';
+    // id.setAttributeNote(att);
 
     // or...
     // id.classList.add('slds-is-active');
