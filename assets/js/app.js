@@ -14,7 +14,7 @@ function tabUpdate() {
     const tabId = event.target.dataset.id;
 
     // Log Values
-    console.log(role);
+    console.log(tabId);
 
 }
 
