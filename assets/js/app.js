@@ -22,7 +22,11 @@ function tabUpdate() {
     att.value = 'slds-is-active';
     id.setAttributeNote(att);
 
+    // or...
+    // id.classList.add('slds-is-active');
+
     console.log('Added Class 2');
+
 
 }
 
