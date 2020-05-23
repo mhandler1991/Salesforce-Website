@@ -1,3 +1,8 @@
+// *****************
+// Developed By: Maxwell Handler
+// Website: MaxwellHandler.com
+// *****************
+
 // Log Image on Load
 function log() {
     console.log('%c ', 'font-size:1000px; background:url(https://media.makeameme.org/created/who-the-hell-31edeu.jpg) no-repeat;');
@@ -17,17 +22,11 @@ function tabUpdate() {
 
     // Log Values
     console.log('Id: ', id);
-    console.log(listId);
+    console.log('li Id: ', listId);
     console.log('Updating Class 2...');
 
+    // Add Class to Tab
     document.getElementById(listId).classList.add('slds-is-active');
-
-    // const att = document.createAttribute('class');
-    // att.value = 'slds-is-active';
-    // id.setAttributeNote(att);
-
-    // or...
-    // id.classList.add('slds-is-active');
 
     console.log('Added Class 2');
 
