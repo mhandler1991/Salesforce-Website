@@ -20,7 +20,7 @@ function tabUpdate() {
     console.log(listId);
     console.log('Updating Class 2...');
 
-    document.getElementById(ListId).classList.add('slds-is-active');
+    document.getElementById(listId).classList.add('slds-is-active');
 
     // const att = document.createAttribute('class');
     // att.value = 'slds-is-active';
