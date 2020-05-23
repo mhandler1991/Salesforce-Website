@@ -8,20 +8,13 @@ function log() {
 // Javascript Tab Handling
 // *******************************
 
-function tabUpdate(id) {
-
-    // Log that the Function Ran
-    console.log("Tab with Id: ", id, " Clicked!");
+function tabUpdate() {
 
     // Get Values
-    const role = document.getElementById(id).getAttribute('data-role');
-    const something = event.target.dataset.role;
-    const another = event.target.dataset.id;
+    const tabId = event.target.dataset.id;
 
     // Log Values
     console.log(role);
-    console.log(something);
-    console.log(another);
 
 }
 
