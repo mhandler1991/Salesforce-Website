@@ -16,10 +16,12 @@ function tabUpdate(id) {
     // Get Values
     const role = document.getElementById(id).getAttribute('data-role');
     const something = event.target.dataset.role;
+    const another = event.target.dataset.id;
 
     // Log Values
     console.log(role);
     console.log(something);
+    console.log(another);
 
 }
 
