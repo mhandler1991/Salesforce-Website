@@ -12,7 +12,7 @@
 
     <!-- CSS Myer RESET -->
     <!--  https://cdnjs.com/libraries/meyer-reset  -->
-    <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css" /> -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css" />
 
     <!-- Salesforce SLDS -->
     <link rel="stylesheet" type="text/css"
@@ -21,9 +21,9 @@
     <!-- <link rel="stylesheet" type="text/css" href=""> -->
 
     <!-- Chart JS https://www.chartjs.org/ -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"
         integrity="sha256-R4pqcOYV8lt7snxMQO/HSbVCFRPMdrhAFMH+vr9giYI=" crossorigin="anonymous">
-    </script> -->
+    </script>
 
     <!-- Import JS -->
     <!-- <script src=""></script> -->
@@ -179,6 +179,154 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Main Body -->
+            <!-- Grid -->
+            <div class="slds-grid">
+                <!-- Tabbed Section -->
+                <div class="slds-col slds-size_2-of-3">
+                    <div class="slds-p-around_medium">
+
+                        <!-- Tab Main Section -->
+                        <article class="slds-card">
+                            <div class="slds-tabs_default">
+                                <ul class="slds-tabs_default__nav" role="tablist">
+                                    <li class="slds-tabs_default__item slds-is-active" title="Item One"
+                                        role="presentation">
+                                        <a class="slds-tabs_default__link" href="javascript:void(0);" role="tab"
+                                            tabindex="-1" aria-selected="false" aria-controls="tab-default-1" id="tab1"
+                                            onclick="tabUpdate(this.id)">Details</a>
+                                    </li>
+                                    <li class="slds-tabs_default__item" title="Item Two" role="presentation">
+                                        <a class="slds-tabs_default__link" href="javascript:void(0);" role="tab"
+                                            tabindex="-1" aria-selected="false" aria-controls="tab-default-2" id="tab2"
+                                            onclick="tabUpdate(this.id)">Education</a>
+                                    </li>
+                                    <li class="slds-tabs_default__item" title="Item Three" role="presentation">
+                                        <a class="slds-tabs_default__link" href="javascript:void(0);" role="tab"
+                                            tabindex="-1" aria-selected="false" aria-controls="tab-default-3" id="tab3"
+                                            onclick="tabUpdate(this.id)">Work Experience</a>
+                                    </li>
+                                    <li class="slds-tabs_default__item" title="Item Three" role="presentation">
+                                        <a class="slds-tabs_default__link" href="javascript:void(0);" role="tab"
+                                            tabindex="-1" aria-selected="false" aria-controls="tab-default-4" id="tab4"
+                                            onclick="tabUpdate(this.id)">Portfolio</a>
+                                    </li>
+                                    <li class="slds-tabs_default__item" title="Item Three" role="presentation">
+                                        <a class="slds-tabs_default__link" href="javascript:void(0);" role="tab"
+                                            tabindex="-1" aria-selected="false" aria-controls="tab-default-5" id="tab5"
+                                            onclick="tabUpdate(this.id)">Skills</a>
+                                    </li>
+                                </ul>
+                                <!-- ABOUT ME -->
+                                <div id="tab1content" class="slds-tabs_default__content slds-show" role="tabpanel"
+                                    aria-labelledby="tab-default-1__item">
+                                    <p>About Me</p>
+                                </div>
+                                <!-- EDUCATION -->
+                                <div id="tab2content" class="slds-tabs_default__content slds-hide" role="tabpanel"
+                                    aria-labelledby="tab-default-2__item">
+                                    <p>Eduction</p>
+                                </div>
+                                <!-- WORK EXPERIENCE -->
+                                <div id="tab3content" class="slds-tabs_default__content slds-hide" role="tabpanel"
+                                    aria-labelledby="tab-default-3__item">
+                                    <p>Work Experience</p>
+                                </div>
+                                <!-- PORTFOLIO -->
+                                <div id="tab4content" class="slds-tabs_default__content slds-hide" role="tabpanel"
+                                    aria-labelledby="tab-default-4__item">
+                                    <p>Portfolio</p>
+                                </div>
+                                <!-- SKILLS -->
+                                <div id="tab5content" class="slds-tabs_default__content slds-hide" role="tabpanel"
+                                    aria-labelledby="tab-default-5__item">
+                                    <p>Skills</p>
+                                    <div>
+                                        <!-- Chart JS -->
+                                        <canvas id="skillsChart"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <!-- End of Tab Section -->
+
+                    </div>
+                </div>
+                <!-- Side Bar -->
+                <div class="slds-col slds-size_1-of-3">
+
+                    <!-- 1st Card -->
+                    <div class="slds-p-around_medium">
+
+                        <!-- MAP -->
+                        <article class="slds-card">
+                            <div class="mapouter">
+                                <div class="gmap_canvas"><iframe width="100%" height="500" id="gmap_canvas"
+                                        src="https://maps.google.com/maps?q=San%20Diego&t=&z=11&ie=UTF8&iwloc=&output=embed"
+                                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                                </div>
+                                <style>
+                                    .mapouter {
+                                        position: relative;
+                                        text-align: right;
+                                        height: relative;
+                                        width: relative;
+                                    }
+
+                                    .gmap_canvas {
+                                        overflow: hidden;
+                                        background: none !important;
+                                        height: relative;
+                                        width: relative;
+                                    }
+                                </style>
+                            </div>
+                        </article>
+                    </div>
+                    <!-- End of 1st Card -->
+
+                    <!-- 2nd Card -->
+                    <!-- <div class="slds-p-around_medium">
+                                    <article class="slds-card">
+                                        <div style="width:100%; height: 100%">
+                                            <div class="slds-file slds-file_card slds-has-title">
+                                                <figure>
+                                                    <a href="https://mhandler1991.github.io/assets/files/resume.pdf" class="slds-file__crop slds-file__crop_16-by-9" download>
+                                                        <span class="slds-assistive-text">Preview:</span>
+                                                        <img src="/assets/images/placeholder-img@16x9.jpg"
+                                                            alt="Description of the image" />
+                                                    </a>
+                                                    <figcaption class="slds-file__title slds-file__title_card">
+                                                        <div class="slds-media slds-media_small slds-media_center">
+                                                            <div class="slds-media__figure slds-line-height_reset">
+                                                                <span class="slds-icon_container" title="pdf">
+                                                                    <svg class="slds-icon slds-icon_x-small" aria-hidden="true">
+                                                                        <use
+                                                                            xlink:href="/assets/icons/doctype-sprite/svg/symbols.svg#pdf">
+                                                                        </use>
+                                                                    </svg>
+                                                                    <span class="slds-assistive-text">pdf</span>
+                                                                </span>
+                                                            </div>
+                                                            <div class="slds-media__body">
+                                                                <span class="slds-file__text slds-truncate"
+                                                                    title="Proposal.pdf">Resume.pdf</span>
+                                                            </div>
+                                                        </div>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </div> -->
+
+                    <!-- End of 2nd Card -->
+
+                </div>
+
+            </div>
+            
 
         </div>
     </div>
