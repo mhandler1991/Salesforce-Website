@@ -76,8 +76,10 @@ function tabUpdate() {
     document.getElementById(activeTabContentId).classList.remove('slds-show');
     console.log('Active Class Removed');
 
-    // Update clicked tabContentId
-    // 
+    // Add Class
+    console.log('Adding Active Class...');
+    document.getElementById(activeTabContentId).classList.remove('slds-hide');
+    console.log('Active Class Added');
 
     // Remove Class
     console.log('Removing Content Active Class...');
@@ -88,6 +90,8 @@ function tabUpdate() {
     console.log('Adding Content Active Class...');
     document.getElementById(tabContentId).classList.remove('slds-show');
     console.log('Active Class Removed');
+
+    console.log("Oh Yay, thats done. Please don't do that again");
 
 }
 
