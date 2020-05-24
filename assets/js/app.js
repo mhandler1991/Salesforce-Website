@@ -15,6 +15,8 @@ function log() {
 
 function tabUpdate() {
 
+    console.log('Handeling those pesky tabs');
+
     // Get all Li Tabs
     let liArray = document.getElementsByClassName('slds-tabs_default__item');
     console.log('liList Array: ', liArray);
@@ -25,9 +27,21 @@ function tabUpdate() {
     console.log('aList Array: ', aArray);
     console.log('aList Length: ', aArray.length);
 
+    // Get  Tab Values
+    const id = event.target.id;
+    const listId = "li"+id;
+    const tabContentId = id+"content";
+
+    // Log  TabValues
+    console.log('Id: ', id);
+    console.log('li Id: ', listId);
+    console.log('Tab Content Id: ', tabContentId);
+
+    // Hide & Show Attribute for Tab Header
+    // 
+
     // Get Current Active Tab
     const activeTab = document.getElementsByClassName('slds-is-active');
-    console.log('Active Tabs Length 1: ', activeTab.length);
     console.log('Active Tab: ', activeTab[0]);
     console.log('Active Tab Attr: ', activeTab[0].attributes);
 
@@ -40,20 +54,40 @@ function tabUpdate() {
     document.getElementById(activeTabId).classList.remove('slds-is-active');
     console.log('Active Class Removed');
 
-    // Get Values
-    const tab = event.target.dataset.id;
-    const target = event.target;
-    const id = event.target.id;
-    const listId = "li"+id;
-
-    // Log Values
-    console.log('Id: ', id);
-    console.log('li Id: ', listId);
-
     // Add Class
     console.log('Updating Class...');
     document.getElementById(listId).classList.add('slds-is-active');
     console.log('Class Added');
+
+    // Hide & Show Content
+    // 
+
+    // Get Active Tab Content
+    const activeTabContent = document.getElementsByClassName('slds-show');
+    console.log('Active Tab Content: ', activeTabContent[0]);
+    console.log('Active Tab Content Attr: ', activeTabContent[0].attributes);
+
+    // Get Current Active Tab Content Id
+    const activeTabContentId = activeTabContent[0].id;
+    console.log('Active Tab Id: ', activeTabContentId);
+
+    // Remove Class
+    console.log('Removing Active Class...');
+    document.getElementById(activeTabContentId).classList.remove('slds-show');
+    console.log('Active Class Removed');
+
+    // Update clicked tabContentId
+    // 
+
+    // Remove Class
+    console.log('Removing Content Active Class...');
+    document.getElementById(tabContentId).classList.remove('slds-hide');
+    console.log('Active Class Removed');
+
+    // Add slds-show
+    console.log('Adding Content Active Class...');
+    document.getElementById(tabContentId).classList.remove('slds-show');
+    console.log('Active Class Removed');
 
 }
 
