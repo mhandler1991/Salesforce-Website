@@ -35,10 +35,8 @@ function tabUpdate() {
     const activeTabId = activeTab[0].id;
     console.log('Active Tab Id: ', activeTabId);
 
-
-
     // Remove Class
-    console.log('Removing Active Class');
+    console.log('Removing Active Class...');
     document.getElementById(activeTabId).classList.remove('slds-is-active');
     console.log('Active Class Removed');
 
