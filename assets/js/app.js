@@ -78,7 +78,7 @@ function tabUpdate() {
 
     // Add Class
     console.log('Adding Active Class...');
-    document.getElementById(activeTabContentId).classList.remove('slds-hide');
+    document.getElementById(activeTabContentId).classList.add('slds-hide');
     console.log('Active Class Added');
 
     // Remove Class
@@ -88,7 +88,7 @@ function tabUpdate() {
 
     // Add slds-show
     console.log('Adding Content Active Class...');
-    document.getElementById(tabContentId).classList.remove('slds-show');
+    document.getElementById(tabContentId).classList.add('slds-show');
     console.log('Active Class Removed');
 
     console.log("Oh Yay, thats done. Please don't do that again");
