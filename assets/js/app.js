@@ -39,7 +39,7 @@ function tabUpdate() {
 
     // Remove Class
     console.log('Removing Active Class');
-    activeTab.classList.remove('slds-is-active');
+    activeTabId.classList.remove('slds-is-active');
     console.log('Active Class Removed');
 
     // Get Values
