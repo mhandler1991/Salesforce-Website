@@ -28,7 +28,12 @@ function tabUpdate() {
     // Get Current Active Tab
     const activeTab = document.getElementsByClassName('slds-is-active');
     console.log('Active Tabs Length 1: ', activeTab.length);
-    console.log('Active Tab: ', activeTab[0].id.value);
+    console.log('Active Tab: ', activeTab[0]);
+    console.log(activeTab[0].attributes);
+    console.log(activeTab[0].attributes.id);
+    console.log(activeTab[0].attributes.id.value);
+    console.log(activeTab[0].id);
+
 
     // Remove Class
     console.log('Removing Active Class');
