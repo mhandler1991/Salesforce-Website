@@ -16,23 +16,25 @@ function log() {
 function tabUpdate() {
 
     // Get all Li Tabs
-    let aArray = document.getElementsByClassName('slds-tabs_default__item');
-    console.log('liList Array: ', aArray);
-    console.log('liList Length: ', aArray.length);
+    let liTab = document.getElementsByClassName('slds-tabs_default__item');
+    console.log('liList Array: ', liTab);
+    console.log('liList Length: ', liTab.length);
 
-    // Get all a Tabss
-    let liArray = document.getElementsByClassName('slds-tabs_default__link');
-    console.log('aList Array: ', liArray);
-    console.log('aList Length: ', liArray.length);
+    // Get all a Tabs
+    let aArray = document.getElementsByClassName('slds-tabs_default__link');
+    console.log('aList Array: ', aArray);
+    console.log('aList Length: ', aArray.length);
 
     // Get Current Active Tab
     const activeTab = document.getElementsByClassName('slds-is-active');
     console.log('Active Tabs Length 1: ', activeTab.length);
     console.log('Active Tab: ', activeTab[0]);
-    console.log(activeTab[0].attributes);
-    console.log(activeTab[0].attributes.id);
-    console.log(activeTab[0].attributes.id.value);
-    console.log(activeTab[0].id);
+    console.log('Active Tab Attr: ', activeTab[0].attributes);
+
+    // Get Current Active Tab Id
+    const activeTabId = activeTab[0].id;
+    console.log('Active Tab Id: ', activeTabId);
+
 
 
     // Remove Class
