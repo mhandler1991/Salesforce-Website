@@ -16,9 +16,9 @@ function log() {
 function tabUpdate() {
 
     // Get all Li Tabs
-    let liTab = document.getElementsByClassName('slds-tabs_default__item');
-    console.log('liList Array: ', liTab);
-    console.log('liList Length: ', liTab.length);
+    let liArray = document.getElementsByClassName('slds-tabs_default__item');
+    console.log('liList Array: ', liArray);
+    console.log('liList Length: ', liArray.length);
 
     // Get all a Tabs
     let aArray = document.getElementsByClassName('slds-tabs_default__link');
