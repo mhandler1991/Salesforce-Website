@@ -17,18 +17,17 @@
     <!-- Salesforce SLDS -->
     <link rel="stylesheet" type="text/css"
         href="./assets/external packages/salesforce-lightning-design-system-static-resource-2.11.9/styles/salesforce-lightning-design-system.css">
-    
-        <!-- Custom CSS -->
+
+    <!-- Custom CSS -->
     <!-- <link rel="stylesheet" type="text/css" href=""> -->
 
     <!-- Chart JS https://www.chartjs.org/ -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"
-        integrity="sha256-R4pqcOYV8lt7snxMQO/HSbVCFRPMdrhAFMH+vr9giYI=" crossorigin="anonymous">
-    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.js"></script>
 
     <!-- Import JS -->
     <script type="text/javascript" src="./assets/js/app.js"></script>
-    
+
 </head>
 
 <body onload="log()">
@@ -197,35 +196,225 @@
                                         role="presentation" id="litab1">
                                         <a class="slds-tabs_default__link" href="javascript:void(0);" role="tab"
                                             data-id="1" tabindex="-1" aria-selected="false"
-                                            aria-controls="tab-default-1" id="tab1"
-                                            onclick="tabUpdate()">Details</a>
+                                            aria-controls="tab-default-1" id="tab1" onclick="tabUpdate()">Details</a>
                                     </li>
-                                    <li class="slds-tabs_default__item" title="Item Two" role="presentation" id="litab2">
+                                    <li class="slds-tabs_default__item" title="Item Two" role="presentation"
+                                        id="litab2">
                                         <a class="slds-tabs_default__link" href="javascript:void(0);" role="tab"
-                                            data-id="2" tabindex="-1" aria-selected="false" aria-controls="tab-default-2" id="tab2"
-                                            onclick="tabUpdate()">Education</a>
+                                            data-id="2" tabindex="-1" aria-selected="false"
+                                            aria-controls="tab-default-2" id="tab2" onclick="tabUpdate()">Education</a>
                                     </li>
-                                    <li class="slds-tabs_default__item" title="Item Three" role="presentation" id="litab3">
+                                    <li class="slds-tabs_default__item" title="Item Three" role="presentation"
+                                        id="litab3">
                                         <a class="slds-tabs_default__link" href="javascript:void(0);" role="tab"
-                                            data-id="3" tabindex="-1" aria-selected="false" aria-controls="tab-default-3" id="tab3"
-                                            onclick="tabUpdate()">Work Experience</a>
+                                            data-id="3" tabindex="-1" aria-selected="false"
+                                            aria-controls="tab-default-3" id="tab3" onclick="tabUpdate()">Work
+                                            Experience</a>
                                     </li>
-                                    <li class="slds-tabs_default__item" title="Item Three" role="presentation" id="litab4">
+                                    <li class="slds-tabs_default__item" title="Item Three" role="presentation"
+                                        id="litab4">
                                         <a class="slds-tabs_default__link" href="javascript:void(0);" role="tab"
-                                            data-id="4" tabindex="-1" aria-selected="false" aria-controls="tab-default-4" id="tab4"
-                                            onclick="tabUpdate()">Portfolio</a>
+                                            data-id="4" tabindex="-1" aria-selected="false"
+                                            aria-controls="tab-default-4" id="tab4" onclick="tabUpdate()">Portfolio</a>
                                     </li>
-                                    <li class="slds-tabs_default__item" title="Item Three" role="presentation" id="litab5">
+                                    <li class="slds-tabs_default__item" title="Item Three" role="presentation"
+                                        id="litab5">
                                         <a class="slds-tabs_default__link" href="javascript:void(0);" role="tab"
-                                            data-id="5" tabindex="-1" aria-selected="false" aria-controls="tab-default-5" id="tab5"
-                                            onclick="tabUpdate()">Skills</a>
+                                            data-id="5" tabindex="-1" aria-selected="false"
+                                            aria-controls="tab-default-5" id="tab5" onclick="tabUpdate()">Skills</a>
                                     </li>
                                 </ul>
+                                <!-- ******** -->
                                 <!-- ABOUT ME -->
+                                <!-- ******** -->
                                 <div id="tab1content" class="slds-tabs_default__content slds-show" role="tabpanel"
                                     aria-labelledby="tab-default-1__item">
-                                    <p>About Me</p>
+
+
+                                    <!-- About Me Content -->
+                                    <div class="slds-form slds-p-left_x-small slds-p-right_x-small" role="list">
+                                        <div class="slds-form__row">
+                                            <div class="slds-form__item" role="listitem">
+                                                <div
+                                                    class="slds-form-element slds-form-element_edit slds-form-element_readonly slds-form-element_stacked slds-hint-parent">
+                                                    <span class="slds-form-element__label">
+                                                        <abbr class="slds-required" title="required">* </abbr>Assigned
+                                                        To</span>
+                                                    <div class="slds-form-element__control">
+                                                        <div class="slds-form-element__static">
+                                                            <span
+                                                                class="slds-avatar slds-avatar_x-small slds-avatar_circle slds-m-right_xx-small">
+                                                                <img alt="Maxwell Handler" src="assets/external packages/salesforce-lightning-design-system-static-resource-2.11.9/images/avatar1.jpg"
+                                                                    title="Maxwell Handler" />
+                                                            </span>
+                                                            <a href="javascript:void(0);">You</a>
+                                                        </div>
+                                                        <button class="slds-button slds-button_icon"
+                                                            title="Edit: Assigned To">
+                                                            <svg class="slds-button__icon slds-button__icon_hint"
+                                                                aria-hidden="true">
+                                                                <use
+                                                                    xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#edit">
+                                                                </use>
+                                                            </svg>
+                                                            <span class="slds-assistive-text">Edit: Assigned To</span>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="slds-form__item" role="listitem">
+                                                <div
+                                                    class="slds-form-element slds-form-element_edit slds-form-element_readonly slds-form-element_stacked slds-hint-parent">
+                                                    <span class="slds-form-element__label">Team Name</span>
+                                                    <div class="slds-form-element__control">
+                                                        <div class="slds-form-element__static">
+                                                            <a href="javascript:void(0);">Salesforce Lightning Design
+                                                                System</a>
+                                                        </div>
+                                                        <button class="slds-button slds-button_icon"
+                                                            title="Edit: Team Name">
+                                                            <svg class="slds-button__icon slds-button__icon_hint"
+                                                                aria-hidden="true">
+                                                                <use
+                                                                    xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#edit">
+                                                                </use>
+                                                            </svg>
+                                                            <span class="slds-assistive-text">Edit: Team Name</span>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="slds-form__row">
+                                            <div class="slds-form__item" role="listitem">
+                                                <div
+                                                    class="slds-form-element slds-form-element_edit slds-form-element_readonly slds-form-element_stacked slds-hint-parent slds-form-element_1-col">
+                                                    <span class="slds-form-element__label">Description</span>
+                                                    <div class="slds-form-element__control">
+                                                        <div class="slds-form-element__static slds-text-longform">
+                                                            Motivated and strategically-minded
+                                                            Salesforce Administration expert capable of working
+                                                            independently and part of a diverse team
+                                                            to build stable and customized salesforce.com environments.
+                                                            Amicable professional with a
+                                                            wide array of experience in multiple instances of
+                                                            Salesforce. Organized and able to
+                                                            translate organizational, departmental, and user needs into
+                                                            sustainable declarative
+                                                            systematic solutions. Experience assisting and training
+                                                            users with a wide-array of knowledge
+                                                            within Salesforce. Eager and persistent employee constantly
+                                                            striving to expand personal
+                                                            knowledge and experience.
+                                                            <br />
+                                                        </div>
+                                                        <!-- <button class="slds-button slds-button_icon" title="Edit: Description">
+                                                            <svg class="slds-button__icon slds-button__icon_hint" aria-hidden="true">
+                                                                <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#edit"></use>
+                                                            </svg>
+                                                            <span class="slds-assistive-text">Edit: Description</span>
+                                                        </button> -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="slds-form__row">
+                                            <div class="slds-form__item" role="listitem">
+                                                <div
+                                                    class="slds-form-element slds-form-element_edit slds-form-element_readonly slds-form-element_stacked slds-hint-parent slds-form-element_1-col">
+                                                    <span class="slds-form-element__label">Fun Facts</span>
+                                                    <div class="slds-form-element__control">
+                                                        <div class="slds-form-element__static slds-text-longform">fun
+                                                            facts...
+                                                            <br />
+                                                        </div>
+                                                        <!-- <button class="slds-button slds-button_icon" title="Edit: Description">
+                                                            <svg class="slds-button__icon slds-button__icon_hint" aria-hidden="true">
+                                                                <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#edit"></use>
+                                                            </svg>
+                                                            <span class="slds-assistive-text">Edit: Description</span>
+                                                        </button> -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="slds-form__row">
+                                            <div class="slds-form__item" role="listitem">
+                                                <div
+                                                    class="slds-form-element slds-form-element_edit slds-form-element_readonly slds-form-element_stacked slds-hint-parent slds-form-element_1-col">
+                                                    <span class="slds-form-element__label">outside of wrk</span>
+                                                    <div class="slds-form-element__control">
+                                                        <div class="slds-form-element__static slds-text-longform">
+                                                            outside of work
+                                                            <br />
+                                                        </div>
+                                                        <!-- <button class="slds-button slds-button_icon" title="Edit: Description">
+                                                            <svg class="slds-button__icon slds-button__icon_hint" aria-hidden="true">
+                                                                <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#edit"></use>
+                                                            </svg>
+                                                            <span class="slds-assistive-text">Edit: Description</span>
+                                                        </button> -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="slds-form__row">
+                                            <div class="slds-form__item" role="listitem">
+                                                <div
+                                                    class="slds-form-element slds-form-element_edit slds-form-element_readonly slds-form-element_stacked slds-hint-parent">
+                                                    <span class="slds-form-element__label">
+                                                        <abbr class="slds-required" title="required">* </abbr>countries
+                                                        i have visted</span>
+                                                    <div class="slds-form-element__control">
+                                                        <div class="slds-form-element__static">
+                                                            <span
+                                                                class="slds-avatar slds-avatar_x-small slds-avatar_circle slds-m-right_xx-small">
+                                                                <img alt="Jack Rogers" src="/assets/images/avatar1.jpg"
+                                                                    title="Jack Rogers" />
+                                                            </span>
+                                                            <a href="javascript:void(0);">You</a>
+                                                        </div>
+                                                        <button class="slds-button slds-button_icon"
+                                                            title="Edit: Assigned To">
+                                                            <svg class="slds-button__icon slds-button__icon_hint"
+                                                                aria-hidden="true">
+                                                                <use
+                                                                    xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#edit">
+                                                                </use>
+                                                            </svg>
+                                                            <span class="slds-assistive-text">Edit: Assigned To</span>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="slds-form__item" role="listitem">
+                                                <div
+                                                    class="slds-form-element slds-form-element_edit slds-form-element_readonly slds-form-element_stacked slds-hint-parent">
+                                                    <span class="slds-form-element__label">Tsomething else about
+                                                        me...</span>
+                                                    <div class="slds-form-element__control">
+                                                        <div class="slds-form-element__static">
+                                                            <a href="javascript:void(0);">Salesforce Lightning Design
+                                                                System</a>
+                                                        </div>
+                                                        <button class="slds-button slds-button_icon"
+                                                            title="Edit: Team Name">
+                                                            <svg class="slds-button__icon slds-button__icon_hint"
+                                                                aria-hidden="true">
+                                                                <use
+                                                                    xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#edit">
+                                                                </use>
+                                                            </svg>
+                                                            <span class="slds-assistive-text">Edit: Team Name</span>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
                                 </div>
+
                                 <!-- EDUCATION -->
                                 <div id="tab2content" class="slds-tabs_default__content slds-hide" role="tabpanel"
                                     aria-labelledby="tab-default-2__item">
