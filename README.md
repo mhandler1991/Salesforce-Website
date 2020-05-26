@@ -20,8 +20,8 @@
 
 
 ### Design
-* Main Page
 
+Main Page
 ![Image of Home](https://github.com/mhandler1991/Salesforce-Website/blob/master/assets/images/readme/Homepage.jpg?raw=true)
 
 
