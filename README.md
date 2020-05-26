@@ -7,7 +7,6 @@
 
 
 - [Saleforce SLDS Website](#saleforce-slds-website)
-      - [Version 1.1](#version-11)
     + [Overview](#overview)
     + [Prerequisites](#prerequisites)
     + [Contents](#contents)
@@ -16,8 +15,6 @@
     + [Contributing](#contributing)
     + [License](#license)
     + [Contact](#contact)
-
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 
 
