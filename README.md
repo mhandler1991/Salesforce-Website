@@ -4,6 +4,8 @@
 
 >This project utilizes the Salesforce SLDS package to mirror standard Salesforce LEX UI/UX.  The page will display information similar to that of any object within the salesforce echo system.  SLDS is tailored for building Salesforce apps: Using the Lightning Design System markup and CSS framework results in UIs that reflect the Salesforce Lightning look and feel. The page fetatures a single-page design with a main tabbed section with tabs.
 
+>View the page at https://mhandler1991.github.io/Salesforce-Website/ 
+
 ### Table of Contents
 
 - [Saleforce SLDS Website](#saleforce-slds-website)
@@ -77,7 +79,7 @@ Below you will find requirements to replicate this project:
 
 This project is built on the SLDS Package. Salesforce releases 3 regular updates each year, the [Salesforce Lightning Design System](https://www.lightningdesignsystem.com/downloads/) should be checked regularly to determine if there is a new version. In order to update the project to the most recent version, download the new version and place the file in the `assets/external` projects folder. The external projects folder allows for versioning of SLDS. Update the stylesheet of the index file to the new verion's css. Assets within the file will need to be updated as well.  
 
-Current Version: *_2.11.9_*
+Current SLDS Version: *_2.11.9_*
 
 ### Contributing
 - Maxwell Handler - MaxwellHandler.com
