@@ -62,14 +62,14 @@ Below you will find requirements to replicate this project:
 ### Installing / Forking
 
 1. Go to the [Github Repo](https://github.com/mhandler1991/Salesforce-Website)
-2. Then click _Clone or download_
+2. Then click __Clone or download__
 3. Clone using the HTTPS or SSH Key
 4. Open Git Bash
 5. Change to your working directory
 6. Type `git clone https://github.com/mhandler1991/Salesforce-Website.git'
-7. Press _Enter_
+7. Press __Enter__
 
-*For more information see this [Article](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
+*For more information see this [Article](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)*
 
 
 
