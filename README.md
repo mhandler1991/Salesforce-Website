@@ -75,10 +75,12 @@ Below you will find requirements to replicate this project:
 
 ### How To
 
+This project is built on the SLDS Package. Salesforce releases 3 regular updates each year, the [Salesforce Lightning Design System](https://www.lightningdesignsystem.com/downloads/) should be checked regularly to determine if there is a new version. In order to update the project to the most recent version, download the new version and place the file in the assets/external projects folder. The external projects folder allows for versioning of SLDS. Update the stylesheet of the index file to the new verion's css. Assets within the file will need to be updated as well.  
 
+Current Version: *_2.11.9_*
 
 ### Contributing
-
+- Maxwell Handler - MaxwellHandler.com
 
 
 ### License
