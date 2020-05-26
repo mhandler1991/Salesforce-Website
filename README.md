@@ -3,7 +3,7 @@
 
 ### Overview
 
->This project utilizes the Salesforce SLDS package to mirror standard Salesforce LEX CSS & >functionality.  The page will display information similar to that of any object within the >salesforce echo system.  SLDS is tailored for building Salesforce apps: Using the Lightning >Design System markup and CSS framework results in UIs that reflect the Salesforce Lightning >look and feel.
+>This project utilizes the Salesforce SLDS package to mirror standard Salesforce LEX CSS & >functionality.  The page will display information similar to that of any object within the >salesforce echo system.  SLDS is tailored for building Salesforce apps: Using the Lightning >Design System markup and CSS framework results in UIs that reflect the Salesforce Lightning look and feel.
 
 
 
