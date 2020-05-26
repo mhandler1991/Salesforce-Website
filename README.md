@@ -3,7 +3,9 @@
 
 ### Overview
 
-This project utilizes the Salesforce SLDS package to mirror standard Salesforce LEX CSS & functionality.  The page will display information similar to that of any object within the salesforce echo system.  SLDS is tailored for building Salesforce apps: Using the Lightning Design System markup and CSS framework results in UIs that reflect the Salesforce Lightning look and feel.
+>This project utilizes the Salesforce SLDS package to mirror standard Salesforce LEX CSS & >functionality.  The page will display information similar to that of any object within the >salesforce echo system.  SLDS is tailored for building Salesforce apps: Using the Lightning >Design System markup and CSS framework results in UIs that reflect the Salesforce Lightning >look and feel.
+
+
 
 ### Prerequisites
 
@@ -18,6 +20,7 @@ Below you will find requirements to replicate this project:
         - More information can be found within the project by going to assets/external packages/salesforce-lightning-design-system-static-resource-2.11.9
 
 * Chart.js
+
 
 
 ### Contents
@@ -36,25 +39,27 @@ Below you will find requirements to replicate this project:
         - README
 
 
+
 ### Installing / Forking
+
 
 
 ### How To
 
 
+
 ### Contributing
 
 
-### Contact Information
 
+### License
 
-### Licensing
-
-
-Salesforce Lightning Design System
-* Source code is licensed under [BSD 3-Clause](https://git.io/sfdc-license)
-* All icons and images are licensed under [Creative Commons Attribution-NoDerivatives 4.0](https://github.com/salesforce-ux/licenses/blob/master/LICENSE-icons-images.txt)
-* The Salesforce Sans font is licensed under our [font license](https://github.com/salesforce-ux/licenses/blob/master/LICENSE-font.txt)
+Distributed under the MIT License. See `LICENSE` for more information.
 
 
 
+### Contact
+
+Maxwell Handler - mhandler1991@gmail.com
+
+Project Link: [https://github.com/mhandler1991/Salesforce-Website](https://github.com/mhandler1991/Salesforce-Website)
