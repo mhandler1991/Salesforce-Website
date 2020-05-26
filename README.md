@@ -47,7 +47,7 @@ Below you will find requirements to replicate this project:
         - assets/ - All required packages and files
             - css/
             - external packages/ - SLDS Package
-                - salesforce-lightning-design-system-static-resource-2.11.9/ - CURRENT VERSION - Please see provided SLDS Readme for additional information
+                - salesforce-lightning-design-system-static-resource-2.11.9/
             - fonts/
             - html/
             - icons/
