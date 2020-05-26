@@ -1,5 +1,4 @@
 # Saleforce SLDS Website
-#### Version 1.1
 
 ### Overview
 
