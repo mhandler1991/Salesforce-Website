@@ -22,7 +22,7 @@
 ### Design
 * Main Page
 
-![Image of Home](https://octodex.github.com/images/yaktocat.png)
+![Image of Home](https://github.com/mhandler1991/Salesforce-Website/blob/master/assets/images/readme/Homepage.jpg?raw=true)
 
 
 
