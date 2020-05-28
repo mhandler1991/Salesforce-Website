@@ -160,9 +160,15 @@ function myskill() {
 
 function createTimeline(){
 
+    console.log(1);
     let timeline = document.createElement('li');
+    console.log(2);
     let text = document.createTextNode('text');
+    console.log(3);
     timeline.appendChild(text);
+    console.log(4);
+
     document.getElementById("timeline").appendChild(timeline);
+    console.log(5);
 
 }
