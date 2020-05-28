@@ -160,15 +160,39 @@ function myskill() {
 
 function createTimeline(){
 
-    console.log(1);
     let timeline = document.createElement('li');
-    console.log(2);
-    let text = document.createTextNode('text');
-    console.log(3);
-    timeline.appendChild(text);
-    console.log(4);
+    timeline.innerHTML = "CLICK ME";
+
+    let timelineDiv = document.createElement('div');
+    let att = document.createAttribute('class');
+    att.value = 'slds-timeline__item_expandable slds-timeline__item_task slds-is-open';
+    timelineDiv.setAttribute(att);
+    timelineDiv.appendChild(timeline);
+
+    let span = document.createElement('span');
+    att.value = 'slds-assistive-text';
+    span.setAttribute(att);
+    timelineDiv.appendChild(timeline);
+
+    let mediaDiv = document.createElement('div');
+    att.value = 'slds-media';
+    mediaDiv.setAttribute(att);
+    mediaDiv.appendChild(timeline);
+
+    let mediaFigureDiv = document.createElement('div');
+    att.value = 'slds-media__figure';
+    mediaFigureDiv.setAttribute(att);
+    mediaFigureDiv.appendChild(mediaDiv);
+
+
+    // let text = document.createTextNode('text');
+    // timeline.appendChild(text);
+
+
 
     document.getElementById("timeline").appendChild(timeline);
-    console.log(5);
 
 }
+
+
+<span class="slds-assistive-text">task</span>
