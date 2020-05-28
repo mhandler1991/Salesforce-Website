@@ -158,41 +158,38 @@ function myskill() {
     })
 }
 
-function createTimeline(){
+// function createTimeline(){
 
-    let timeline = document.createElement('li');
-    timeline.innerHTML = "CLICK ME";
+//     let timeline = document.createElement('li');
+//     timeline.innerHTML = "CLICK ME";
 
-    let timelineDiv = document.createElement('div');
-    let att = document.createAttribute('class');
-    att.value = 'slds-timeline__item_expandable slds-timeline__item_task slds-is-open';
-    timelineDiv.setAttribute(att);
-    timelineDiv.appendChild(timeline);
+//     let timelineDiv = document.createElement('div');
+//     let att = document.createAttribute('class');
+//     att.value = 'slds-timeline__item_expandable slds-timeline__item_task slds-is-open';
+//     timelineDiv.setAttribute(att);
+//     timelineDiv.appendChild(timeline);
 
-    let span = document.createElement('span');
-    att.value = 'slds-assistive-text';
-    span.setAttribute(att);
-    timelineDiv.appendChild(timeline);
+//     let span = document.createElement('span');
+//     att.value = 'slds-assistive-text';
+//     span.setAttribute(att);
+//     timelineDiv.appendChild(timeline);
 
-    let mediaDiv = document.createElement('div');
-    att.value = 'slds-media';
-    mediaDiv.setAttribute(att);
-    mediaDiv.appendChild(timeline);
+//     let mediaDiv = document.createElement('div');
+//     att.value = 'slds-media';
+//     mediaDiv.setAttribute(att);
+//     mediaDiv.appendChild(timeline);
 
-    let mediaFigureDiv = document.createElement('div');
-    att.value = 'slds-media__figure';
-    mediaFigureDiv.setAttribute(att);
-    mediaFigureDiv.appendChild(mediaDiv);
-
-
-    // let text = document.createTextNode('text');
-    // timeline.appendChild(text);
+//     let mediaFigureDiv = document.createElement('div');
+//     att.value = 'slds-media__figure';
+//     mediaFigureDiv.setAttribute(att);
+//     mediaFigureDiv.appendChild(mediaDiv);
 
 
-
-    document.getElementById("timeline").appendChild(timeline);
-
-}
+//     // let text = document.createTextNode('text');
+//     // timeline.appendChild(text);
 
 
-<span class="slds-assistive-text">task</span>
+
+//     document.getElementById("timeline").appendChild(timeline);
+
+// }
