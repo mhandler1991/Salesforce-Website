@@ -5,31 +5,30 @@
 
 // Log Image on Load
 function log() {
-    console.log('Load Fix');
-    console.log('%c ', 'font-size:1000px; background:url(https://media.makeameme.org/created/who-the-hell-31edeu.jpg) no-repeat;');
-    console.log('MaxwellHandler.com');
+    //console.log('%c ', 'font-size:1000px; background:url(https://media.makeameme.org/created/who-the-hell-31edeu.jpg) no-repeat;');
+    console.log('Originally Created for MaxwellHandler.com');
 };
 
-document.getElementById("body").addEventListener("load", log);
+// document.getElementById("body").addEventListener("load", log);
 
-document.addEventListener('DOMContentLoaded', function() {
-    console.log('Loaded...');
-}, false);
+// document.addEventListener('DOMContentLoaded', function() {
+//     console.log('Loaded...');
+// }, false);
 
-window.addEventListener('DOMContentLoaded', (event) => {
-    console.log('test...');
-});
+// window.addEventListener('DOMContentLoaded', (event) => {
+//     console.log('test...');
+// });
 
 // *******************************
 // Javascript Tab Handling
 // *******************************
 
-document.getElementById("tab1").addEventListener("click", tabUpdate);
-document.getElementById("tab1").onclick = test;
+// document.getElementById("tab1").addEventListener("click", tabUpdate);
+// document.getElementById("tab1").onclick = test;
 
-function test(){
-    console.log('test');
-}
+// function test(){
+//     console.log('test');
+// }
 
 function tabUpdate() {
 
