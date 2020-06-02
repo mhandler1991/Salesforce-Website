@@ -13,6 +13,8 @@ document.onload = function log() {
 // Javascript Tab Handling
 // *******************************
 
+document.getElementById("tab1").addEventListener("click", tabUpdate());
+
 function tabUpdate() {
 
     console.log('Handeling those pesky tabs');
