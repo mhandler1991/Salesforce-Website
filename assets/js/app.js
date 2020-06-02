@@ -10,7 +10,7 @@ function log() {
     console.log('MaxwellHandler.com');
 };
 
-document.getElementById('body').onload = log();
+document.getElementById("body").addEventListener("load", log);
 
 document.addEventListener('DOMContentLoaded', function() {
     console.log('Loaded...');
