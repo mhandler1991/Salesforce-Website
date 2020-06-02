@@ -16,6 +16,10 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log('Loaded...');
 }, false);
 
+window.addEventListener('DOMContentLoaded', (event) => {
+    console.log('test...');
+});
+
 // *******************************
 // Javascript Tab Handling
 // *******************************
