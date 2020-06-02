@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // Javascript Tab Handling
 // *******************************
 
-document.getElementById("tab1").addEventListener("click", tabUpdate());
+document.getElementById("tab1").addEventListener("click", tabUpdate);
 
 function tabUpdate() {
 
