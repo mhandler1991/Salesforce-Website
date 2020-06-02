@@ -12,6 +12,10 @@ function log() {
 
 document.getElementById('body').onload = log();
 
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('Loaded...');
+}, false);
+
 // *******************************
 // Javascript Tab Handling
 // *******************************
