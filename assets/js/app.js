@@ -9,26 +9,10 @@ function log() {
     console.log('Originally Created for MaxwellHandler.com');
 };
 
-// document.getElementById("body").addEventListener("load", log);
-
-// document.addEventListener('DOMContentLoaded', function() {
-//     console.log('Loaded...');
-// }, false);
-
-// window.addEventListener('DOMContentLoaded', (event) => {
-//     console.log('test...');
-// });
 
 // *******************************
 // Javascript Tab Handling
 // *******************************
-
-// document.getElementById("tab1").addEventListener("click", tabUpdate);
-// document.getElementById("tab1").onclick = test;
-
-// function test(){
-//     console.log('test');
-// }
 
 function tabUpdate() {
 
@@ -174,6 +158,33 @@ function myskill() {
         },
     })
 }
+
+
+
+
+
+
+
+// Out Dated/Test Code
+
+// document.getElementById("body").addEventListener("load", log);
+
+// document.addEventListener('DOMContentLoaded', function() {
+//     console.log('Loaded...');
+// }, false);
+
+// window.addEventListener('DOMContentLoaded', (event) => {
+//     console.log('test...');
+// });
+
+// document.getElementById("tab1").addEventListener("click", tabUpdate);
+// document.getElementById("tab1").onclick = test;
+
+// function test(){
+//     console.log('test');
+// }
+
+
 
 // function createTimeline(){
 
