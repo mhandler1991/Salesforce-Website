@@ -82,7 +82,27 @@ This project is built on the SLDS Package. Salesforce releases 3 regular updates
 
 Current SLDS Version: *_2.11.9_*
 
+
+
+### SLDS Notes
+
+Here is a list of ah-ha moments on my journey to build this site, hopefully they help
+
+
+Displaying SLDS SVG's:
+```js
+<span class="slds-icon_container slds-icon-standard-contact">
+    <svg class="slds-icon slds-page-header__icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <use xlink:href="./assets/external packages/salesforce-lightning-design-system-static-resource-2.11.9/icons/standard-sprite/svg/symbols.svg#opportunity">
+        </use>
+    </svg>
+</span>
+```
+
+
+
 ### Contributing
+
 - Maxwell Handler - MaxwellHandler.com
 
 
@@ -106,18 +126,3 @@ Maxwell Handler - mhandler1991@gmail.com
 
 Project Link: [https://github.com/mhandler1991/Salesforce-Website](https://github.com/mhandler1991/Salesforce-Website)
 
-
-### SLDS Notes
-
-Here is a list of ah-ha moments on my journey to build this site, hopefully they help
-
-
-* Displaying SLDS SVG's:
-```js
-<span class="slds-icon_container slds-icon-standard-contact">
-    <svg class="slds-icon slds-page-header__icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-        <use xlink:href="./assets/external packages/salesforce-lightning-design-system-static-resource-2.11.9/icons/standard-sprite/svg/symbols.svg#opportunity">
-        </use>
-    </svg>
-</span>
-```
