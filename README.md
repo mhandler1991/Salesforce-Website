@@ -25,7 +25,7 @@
 ### Design
 
 Site
-![Alt Text](https://github.com/mhandler1991/Salesforce-Website/blob/master/assets/images/readme/recording_v1.mp4?raw=true)
+<!-- ![Alt Text](https://github.com/mhandler1991/Salesforce-Website/blob/master/assets/images/readme/recording_v1.mp4?raw=true) -->
 
 
 Main Page
