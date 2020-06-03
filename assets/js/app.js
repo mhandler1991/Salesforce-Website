@@ -9,6 +9,10 @@ function log() {
     console.log('Originally Created for MaxwellHandler.com');
 };
 
+document.getElementById("description").innerHTML = "I live &#38; breathe Salesforce. I am a Salesforce Administrator and full stack developer with a focus in Salesforce Lightning Web Components.I have experience building custom &#38; stable Salesforce environments to cater to a companies specific needs, many from the ground-up. I haveworked in 10+ environments in both Classic and Lightning. I consider myself organized and able totranslate organizational, departmental, and user needs into sustainable Salesforce solutions.";
+
+
+
 
 // *******************************
 // Javascript Tab Handling
