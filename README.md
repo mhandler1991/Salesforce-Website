@@ -15,6 +15,7 @@
     + [Contents](#contents)
     + [Installing / Forking](#installing---forking)
     + [How To](#how-to)
+    + [Notes](#Contributing)
     + [Contributing](#contributing)
     + [License](#license)
     + [Contact](#contact)
