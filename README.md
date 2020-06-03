@@ -47,7 +47,7 @@ Below you will find requirements to replicate this project:
 
 ### Contents
 
-    * Salesforce-Website
+    - Salesforce-Website
         - assets/ - All required packages and files
             - css/
             - external packages/ - SLDS Package
