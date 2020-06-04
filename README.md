@@ -94,7 +94,7 @@ Current SLDS Version: *_2.11.9_*
 Here is a list of ah-ha moments on my journey to build this site, hopefully they help
 
 
-Displaying SLDS SVG's:
+- Displaying SLDS SVG's:
 ```js
 <span class="slds-icon_container slds-icon-standard-contact">
     <svg class="slds-icon slds-page-header__icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -104,7 +104,7 @@ Displaying SLDS SVG's:
 </span>
 ```
 
-Functioning SLDS Tabs:
+- Functioning SLDS Tabs:
 ``` see function tabUpdate() ```
 
 See full documentation [Here](https://www.lightningdesignsystem.com/components/tabs/#site-main-content)
