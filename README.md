@@ -104,7 +104,10 @@ Displaying SLDS SVG's:
 </span>
 ```
 
+Functioning SLDS Tabs:
+``` see function tabUpdate() ```
 
+See full documentation [Here](https://www.lightningdesignsystem.com/components/tabs/#site-main-content)
 
 ### Contributing
 
