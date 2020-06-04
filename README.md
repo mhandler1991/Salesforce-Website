@@ -108,7 +108,7 @@ Here is a list of ah-ha moments on my journey to build this site, hopefully they
 
 see: ``` function tabUpdate() ```
 
-See full documentation [Here](https://www.lightningdesignsystem.com/components/tabs/#site-main-content)
+Full documentation [Here](https://www.lightningdesignsystem.com/components/tabs/#site-main-content)
 
 ### Contributing
 
