@@ -105,7 +105,8 @@ Here is a list of ah-ha moments on my journey to build this site, hopefully they
 ```
 
 - Functioning SLDS Tabs:
-``` see function tabUpdate() ```
+
+see: ``` function tabUpdate() ```
 
 See full documentation [Here](https://www.lightningdesignsystem.com/components/tabs/#site-main-content)
 
