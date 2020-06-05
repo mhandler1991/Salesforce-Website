@@ -3,3 +3,14 @@
 .label {
     margin-bottom: 2px;
 }
+
+.edu_li {
+    margin-bottom: 3px;
+}
+
+.edu_hr {
+    margin-top: 0; 
+    margin-bottom: 5px; 
+    padding-top: 0; 
+    padding-bottom: 0;
+}
