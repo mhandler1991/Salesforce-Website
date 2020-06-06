@@ -183,9 +183,9 @@ var getJSON = function(url, callback) {
 getJSON('https://api.github.com/users/mhandler1991/repos',
 function(error, data) {
   if (error !== null) {
-    alert('Something went wrong: ' + err);
+    alert('Something went wrong: ' + error);
   } else {
-    alert('Your query count: ' + data.query.count);
+    alert('Your query count: ' + data);
     console.log(data);
   }
 });
