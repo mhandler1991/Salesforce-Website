@@ -3,16 +3,25 @@
 // Website: MaxwellHandler.com
 // *****************
 
-// Log Image on Load
-function log() {
-    //console.log('%c ', 'font-size:1000px; background:url(https://media.makeameme.org/created/who-the-hell-31edeu.jpg) no-repeat;');
-    console.log('Originally Created for MaxwellHandler.com');
-};
 
 document.getElementById("description").innerHTML = "I live &#38; breathe Salesforce. I am a Salesforce Administrator and full stack developer with a focus in Salesforce Lightning Web Components.I have experience building custom &#38; stable Salesforce environments to cater to a companies specific needs, many from the ground-up. I haveworked in 10+ environments in both Classic and Lightning. I consider myself organized and able totranslate organizational, departmental, and user needs into sustainable Salesforce solutions.";
 
 
-
+// Define JSON Variable
+var getJSON = function (url, callback) {
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', url, true);
+    xhr.responseType = 'json';
+    xhr.onload = function () {
+        var status = xhr.status;
+        if (status === 200) {
+            callback(null, xhr.response);
+        } else {
+            callback(status, xhr.response);
+        }
+    };
+    xhr.send();
+};
 
 // *******************************
 // Javascript Tab Handling
@@ -163,32 +172,26 @@ function myskill() {
     })
 }
 
-// Define JSON Variable
-var getJSON = function(url, callback) {
-    var xhr = new XMLHttpRequest();
-    xhr.open('GET', url, true);
-    xhr.responseType = 'json';
-    xhr.onload = function() {
-      var status = xhr.status;
-      if (status === 200) {
-        callback(null, xhr.response);
-      } else {
-        callback(status, xhr.response);
-      }
-    };
-    xhr.send();
+
+// Log Image on Load
+function onload() {
+    //console.log('%c ', 'font-size:1000px; background:url(https://media.makeameme.org/created/who-the-hell-31edeu.jpg) no-repeat;');
+    console.log('Originally Created for MaxwellHandler.com');
+
+    // Get JSON
+    getJSON('https://api.github.com/users/mhandler1991/repos',
+        function (error, data) {
+            if (error) {
+                console.error(error);
+            } else if (data){
+                console.table(data);
+            } else {
+                console.log('Unknown Result from Github Repo Request');
+            }
+        });
+
 };
 
-// Get JSON
-getJSON('https://api.github.com/users/mhandler1991/repos',
-function(error, data) {
-  if (error !== null) {
-    alert('Something went wrong: ' + error);
-  } else {
-    alert('Your query count: ' + data);
-    console.log(data);
-  }
-});
 
 
 
