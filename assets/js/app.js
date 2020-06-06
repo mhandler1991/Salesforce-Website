@@ -184,7 +184,7 @@ function onload() {
             if (error) {
                 console.error(error);
             } else if (data){
-                console.table(data);
+                console.log(data);
             } else {
                 console.log('Unknown Result from Github Repo Request');
             }
