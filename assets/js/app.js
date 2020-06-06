@@ -34,8 +34,8 @@ function tabUpdate() {
 
     // Get  Tab Values
     const id = event.target.id;
-    const listId = "li"+id;
-    const tabContentId = id+"content";
+    const listId = "li" + id;
+    const tabContentId = id + "content";
 
     // Log  TabValues
     console.log('Id: ', id);
@@ -162,6 +162,33 @@ function myskill() {
         },
     })
 }
+
+// Define JSON Variable
+var getJSON = function(url, callback) {
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', url, true);
+    xhr.responseType = 'json';
+    xhr.onload = function() {
+      var status = xhr.status;
+      if (status === 200) {
+        callback(null, xhr.response);
+      } else {
+        callback(status, xhr.response);
+      }
+    };
+    xhr.send();
+};
+
+// Get JSON
+getJSON('https://api.github.com/users/mhandler1991/repos',
+function(error, data) {
+  if (error !== null) {
+    alert('Something went wrong: ' + err);
+  } else {
+    alert('Your query count: ' + data.query.count);
+    console.log(data);
+  }
+});
 
 
 
