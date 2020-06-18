@@ -198,6 +198,9 @@ function openEmail(){
     console.log('Opening Email Utility...');
     document.getElementById(emailpopout).classList.add('slds-is-open');
     console.log('Email Utility Open');
+    document.getElementById(emailli).classList.add('slds-utility-bar__item_pop-out');
+    document.getElementById(emailbttn).classList.add('slds-is-active');    
+    console.log('Updated utility css');
 };
 
 function closeEmail(){
