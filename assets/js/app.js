@@ -211,7 +211,7 @@ function closeEmail(){
     document.getElementById('emailbttn').classList.remove('slds-is-active');    
     console.log('Updated utility css');
 }
-s
+
 
 
 
