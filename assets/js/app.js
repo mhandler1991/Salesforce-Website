@@ -196,13 +196,13 @@ function onload() {
 
 function openEmail(){
     console.log('Opening Email Utility...');
-    document.getElementById(activeTabContentId).classList.add('slds-is-open');
+    document.getElementById(emailpopout).classList.add('slds-is-open');
     console.log('Email Utility Open');
 };
 
 function closeEmail(){
     console.log('Closing Email Utility...');
-    document.getElementById(activeTabContentId).classList.remove('slds-is-open');
+    document.getElementById(emailpopout).classList.remove('slds-is-open');
     console.log('Email Utility is Closed');
 }
 

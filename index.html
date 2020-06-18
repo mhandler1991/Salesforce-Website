@@ -819,9 +819,9 @@
 
         <ul class="slds-utility-bar">
             <!-- Email -->
-            <li class="slds-utility-bar__item">
+            <li class="slds-utility-bar__item" id='emailli'>
                 <button class="slds-button slds-utility-bar__action" aria-pressed="false"
-                    onclick="openEmail()">
+                    onclick="openEmail()" id='emailbttn'>
                     <svg class="slds-button__icon slds-button__icon_left" aria-hidden="true"
                         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <use
@@ -849,7 +849,7 @@
 
         <!-- Send Email -->
         
-        <div class="slds-utility-panel slds-grid slds-grid_vertical" role="dialog" aria-labelledby="panel-heading-01">
+        <div class="slds-utility-panel slds-grid slds-grid_vertical" role="dialog" aria-labelledby="panel-heading-01" id="emailpopout">
             <div class="slds-utility-panel__header slds-grid slds-shrink-none">
               <div class="slds-media slds-media_center">
                 <div class="slds-media__figure slds-m-right_x-small">
@@ -864,7 +864,7 @@
                 </div>
               </div>
               <div class="slds-col_bump-left slds-shrink-none">
-                <button class="slds-button slds-button_icon slds-button_icon" title="Close Panel">
+                <button class="slds-button slds-button_icon slds-button_icon" title="Close Panel" onclick="closeEmail()">
                   <svg class="slds-button__icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true">
                     <use xlink:href="./assets/external packages/salesforce-lightning-design-system-static-resource-2.11.9/icons/utility-sprite/svg/symbols.svg#minimize_window"></use>
                   </svg>
