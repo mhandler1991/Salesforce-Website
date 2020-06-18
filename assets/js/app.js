@@ -207,6 +207,9 @@ function closeEmail(){
     console.log('Closing Email Utility...');
     document.getElementById(emailpopout).classList.remove('slds-is-open');
     console.log('Email Utility is Closed');
+    document.getElementById(emailli).classList.remove('slds-utility-bar__item_pop-out');
+    document.getElementById(emailbttn).classList.remove('slds-is-active');    
+    console.log('Updated utility css');
 }
 
 
