@@ -210,6 +210,12 @@ function closeEmail(){
     document.getElementById('emailli').classList.remove('slds-utility-bar__item_pop-out');
     document.getElementById('emailbttn').classList.remove('slds-is-active');    
     console.log('Updated utility css');
+};
+
+function activityFunction(id){
+    console.log('Managing Activity...');
+    console.log('Activity with Id: ', id, ' was clicked!');
+    
 }
 
 
