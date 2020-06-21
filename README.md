@@ -104,11 +104,13 @@ Here is a list of ah-ha moments on my journey to build this site, hopefully they
 </span>
 ```
 
+You will have to add ```xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"``` to the SVG as well as update the elink:href in the 'use'. 
+
 - Functioning SLDS Tabs:
 
 see: ``` function tabUpdate() ```
 
-Full documentation [Here](https://www.lightningdesignsystem.com/components/tabs/#site-main-content)
+Full documentation [HERE](https://www.lightningdesignsystem.com/components/tabs/#site-main-content)
 
 ### Contributing
 
