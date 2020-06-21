@@ -215,6 +215,32 @@ function closeEmail(){
 function activityFunction(id){
     console.log('Managing Activity...');
     console.log('Activity with Id: ', id, ' was clicked!');
+
+    const elm = document.getElementById(id);
+    const elmDetail = id + 'detail';
+
+    console.log('Elm: ', elm);
+    console.log('ElmDetail: ', elmDetail);
+
+    if(elm.getAttribute('aria-expanded') == 'true'){
+
+        // if expanded, close...
+        console.log('Closing...');
+        // Update Elm
+        // Update Elm Detail
+
+    } else if(elm.getAttribute('aria-expanded') == 'fase'){
+
+        // if closed, expand...
+        console.log('Expanding...');
+        // Update Elm
+        // Update Elm Detail
+
+    } else {
+
+        console.log('Shit... I dont know...');
+        
+    }
     
 }
 
