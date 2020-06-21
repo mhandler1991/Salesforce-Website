@@ -104,7 +104,7 @@ Here is a list of ah-ha moments on my journey to build this site, hopefully they
 </span>
 ```
 
-You will have to add ```xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"``` to the SVG as well as update the elink:href in the 'use'. 
+You will have to add ```xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"``` to the SVG as well as update the ```xlink:href``` in the ```<use>```. 
 
 - Functioning SLDS Tabs:
 
