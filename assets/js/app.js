@@ -215,6 +215,8 @@ function closeEmail(){
 function activityFunction(id){
     console.log('Managing Activity...');
     console.log('Activity with Id: ', id, ' was clicked!');
+    console.log(this.id);
+    console.log(element.id);
 
     const elm = document.getElementById(id);
     const elmDetail = id + 'detail';
@@ -239,7 +241,7 @@ function activityFunction(id){
     } else {
 
         console.log('Shit... I dont know...');
-        
+
     }
     
 }
