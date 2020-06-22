@@ -234,7 +234,9 @@ function activityFunction(e){
         // Update Elm
         elm.setAttribute("aria-expanded", "false");
         // Update Elm Detail
-        elmDetail.setAttribute("aria-hidden", "true")
+        elmDetail.setAttribute("aria-hidden", "true");
+
+        console.log('Closed');
 
 
     } else if(elm.getAttribute('aria-expanded') == 'fase'){
@@ -245,6 +247,8 @@ function activityFunction(e){
         elm.setAttribute("aria-expanded", "true");
         // Update Elm Detail
         elmDetail.setAttribute("aria-hidden", "false");
+
+        console.log('Opened');
 
     } else {
 
