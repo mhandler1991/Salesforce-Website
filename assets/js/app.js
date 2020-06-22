@@ -212,18 +212,17 @@ function closeEmail(){
     console.log('Updated utility css');
 };
 
-function activityFunction(elm){
+function activityFunction(e){
+
     console.log('Managing Activity...');
-    console.log(elm);
-    console.log('Activity with Id: ', elm.id, ' was clicked!');
-    console.log(this.id);
-    console.log(element.id);
+    console.log(e);
+    console.log('Activity with Id: ', e.id, ' was clicked!');
+    
+    const elm = document.getElementById(e.id);
+    const elmDetail = elm + 'detail';
 
-    // const elm = document.getElementById(id);
-    // const elmDetail = id + 'detail';
-
-    // console.log('Elm: ', elm);
-    // console.log('ElmDetail: ', elmDetail);
+    console.log('Elm: ', elm);
+    console.log('ElmDetail: ', elmDetail);
 
     if(elm.getAttribute('aria-expanded') == 'true'){
 
