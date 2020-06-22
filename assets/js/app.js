@@ -219,24 +219,32 @@ function activityFunction(e){
     console.log('Activity with Id: ', e.id, ' was clicked!');
     
     const elm = document.getElementById(e.id);
-    const elmDetail = elm + 'detail';
+    const elmDetailid = elm + 'detail';
+    const elmDetail = document.getElementById(elmDetailid);
 
     console.log('Elm: ', elm);
     console.log('ElmDetail: ', elmDetail);
+
+    console.log('Element Aria-Expanded State currently: ', elm.getAttribute('aria-expanded'));
 
     if(elm.getAttribute('aria-expanded') == 'true'){
 
         // if expanded, close...
         console.log('Closing...');
         // Update Elm
+        elm.setAttribute("aria-expanded", "false");
         // Update Elm Detail
+        elmDetail.setAttribute("aria-hidden", "true")
+
 
     } else if(elm.getAttribute('aria-expanded') == 'fase'){
 
         // if closed, expand...
         console.log('Expanding...');
         // Update Elm
+        elm.setAttribute("aria-expanded", "true");
         // Update Elm Detail
+        elmDetail.setAttribute("aria-hidden", "false");
 
     } else {
 
