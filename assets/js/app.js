@@ -219,7 +219,7 @@ function activityFunction(e){
     console.log('Activity with Id: ', e.id, ' was clicked!');
     
     const elm = document.getElementById(e.id);
-    const elmDetailid = elm + 'detail';
+    const elmDetailid = e.id + 'detail';
     const elmDetail = document.getElementById(elmDetailid);
 
     console.log('Elm: ', elm);
@@ -234,6 +234,8 @@ function activityFunction(e){
         console.log('Closing...');
         // Update Elm
         elm.setAttribute("aria-expanded", "false");
+
+        console.log('Test');
         // Update Elm Detail
         elmDetail.setAttribute("aria-hidden", "true");
 
@@ -246,6 +248,8 @@ function activityFunction(e){
         console.log('Expanding...');
         // Update Elm
         elm.setAttribute("aria-expanded", "true");
+
+        console.log('Test');
         // Update Elm Detail
         elmDetail.setAttribute("aria-hidden", "false");
 
