@@ -223,6 +223,7 @@ function activityFunction(e){
     const elmDetail = document.getElementById(elmDetailid);
 
     console.log('Elm: ', elm);
+    console.log('ElmDetailId: ', elmDetailid);
     console.log('ElmDetail: ', elmDetail);
 
     console.log('Element Aria-Expanded State currently: ', elm.getAttribute('aria-expanded'));
@@ -239,7 +240,7 @@ function activityFunction(e){
         console.log('Closed');
 
 
-    } else if(elm.getAttribute('aria-expanded') == 'fase'){
+    } else if(elm.getAttribute('aria-expanded') == 'false'){
 
         // if closed, expand...
         console.log('Expanding...');
