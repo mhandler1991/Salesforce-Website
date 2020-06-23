@@ -232,6 +232,7 @@ function activityFunction(e){
 
         // if expanded, close...
         console.log('Closing...');
+        console.log(1);
         // Update Elm
         elm.setAttribute("aria-expanded", "false");
 
@@ -246,6 +247,7 @@ function activityFunction(e){
 
         // if closed, expand...
         console.log('Expanding...');
+        console.log(1);
         // Update Elm
         elm.setAttribute("aria-expanded", "true");
 
