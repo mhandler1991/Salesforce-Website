@@ -21,7 +21,7 @@
 
 /* Form */
 input[type=text], select, textarea {
-    width: 100%;
+    width: 95%;
     padding: 10px 18px;
     margin: 6px 0;
     display: inline-block;
@@ -31,5 +31,5 @@ input[type=text], select, textarea {
   }
   
   input[type=submit] {
-    width: 100%;
+    width: 95%;
   }
