@@ -49,7 +49,7 @@ Below you will find requirements to replicate this project:
 
 * Form uses Salesforce Standard Web-to-Case Funcationality, for full documentation pertaining to implementation see the following:
     - [Web-to-Case](https://help.salesforce.com/articleView?id=customize_casecapture.htm&type=5)
-    - [Trailhead] (https://trailhead.salesforce.com/en/content/learn/modules/service_lex/service_lex_channels)
+    - [Trailhead](https://trailhead.salesforce.com/en/content/learn/modules/service_lex/service_lex_channels)
 
 
 ### Contents
