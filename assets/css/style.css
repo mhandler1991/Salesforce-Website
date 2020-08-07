@@ -19,6 +19,10 @@
     margin: 5px 0;
 }
 
+.center {
+    margin: auto;
+  }
+
 /* Form */
 input[type=text], select, textarea {
     width: 95%;
