@@ -46,12 +46,14 @@ Below you will find requirements to replicate this project:
         - More information can be found within the project by going to assets/external packages/salesforce-lightning-design-system-static-resource-2.11.9
 
 * Chart.js
-    - [Chart.js](https://www.chartjs.org/)
-    - [SLDS Chart Guidelines](https://www.lightningdesignsystem.com/guidelines/charts/)
+    - Skills Tab uses Chart Js to simulate Salesforce Dashboard Elements
+        - [Chart.js](https://www.chartjs.org/)
+        - [SLDS Chart Guidelines](https://www.lightningdesignsystem.com/guidelines/charts/)
 
-* Form uses Salesforce Standard Web-to-Case Funcationality, for full documentation pertaining to implementation see the following:
-    - [Web-to-Case](https://help.salesforce.com/articleView?id=customize_casecapture.htm&type=5)
-    - [Trailhead](https://trailhead.salesforce.com/en/content/learn/modules/service_lex/service_lex_channels)
+* Salesforce Web to Case
+    - Contact Form utilizes Salesforce Standard Web-to-Case Funcationality, for full documentation pertaining to implementation see the following:
+        - [Web-to-Case](https://help.salesforce.com/articleView?id=customize_casecapture.htm&type=5)
+        - [Trailhead](https://trailhead.salesforce.com/en/content/learn/modules/service_lex/service_lex_channels)
 
 
 ### Contents
