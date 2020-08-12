@@ -19,8 +19,10 @@
         href="./assets/external packages/salesforce-lightning-design-system-static-resource-2.11.9/styles/salesforce-lightning-design-system.css">
 
     <!-- Chart JS https://www.chartjs.org/ -->
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.js"></script>
+
+    <!-- Chart JS https://www.chartjs.org/ -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js" integrity="sha256-R4pqcOYV8lt7snxMQO/HSbVCFRPMdrhAFMH+vr9giYI=" crossorigin="anonymous"></script>
 
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon"
@@ -1239,6 +1241,62 @@
                                     <div>
                                         <!-- Chart JS -->
                                         <canvas id="skillsChart"></canvas>
+                                        <script>
+                                            let skillsChart = document.getElementById('skillsChart').getContext('2d');
+
+                                            let chart = new Chart(skillsChart, {
+                                                type:'horizontalBar', // Chart Type...
+                                                data:{
+                                                    labels:[
+                                                    'HTML',
+                                                    'CSS',
+                                                    'Javascript',
+                                                    'Node.js',
+                                                    'SQL',
+                                                    'Mongo DB',
+                                                    'React',
+                                                    'Visualforce',
+                                                    'Lightning Components',
+                                                    ],
+                                                    datasets:[{
+                                                        label: 'Title',
+                                                        data:[ 99,90,75,50,75,50,25,50,60,
+                                                        ],
+                                                        backgroundColor: '#0C8EFF',
+                                                        borderWidth: 1,
+                                                        hoverBackgroundColor: '#00396B',
+                                                    }]
+                                                },
+                                                options:{
+                                                    title:{
+                                                        display:true,
+                                                        text:'Dev Skills',
+                                                        fontSize: 25
+                                                    },
+                                                    legend:{
+                                                        display: false
+                                                    },
+                                                    layout:{
+                                                        padding: 50,
+                                                    },
+                                                    tooltips:{
+                                                        enabled:false
+                                                    },
+                                                    scales:{
+                                                        xAxes:[{
+                                                            gridLines:{
+                                                                drawOnChartArea:false
+                                                            }
+                                                        }],
+                                                        yAxes:[{
+                                                            gridLines:{
+                                                                drawOnChartArea:false
+                                                            }
+                                                        }]
+                                                    }
+                                                },
+                                            })
+                                        </script>
                                     </div>
                                 </div>
                             </div>
