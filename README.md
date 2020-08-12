@@ -37,7 +37,7 @@ Main Page
 
 Below you will find requirements to replicate this project:
 
-Salesforce - SLDS (Salesforce Lightning Design System)
+##### Salesforce - SLDS (Salesforce Lightning Design System)
     - This project is using the Spring '20 (SLDS 2.11.9) as its primary CSS to replicate standard Salesforce UI/UX
         - [Release Notes](https://www.lightningdesignsystem.com/release-notes/)
         - [Download] (https://www.lightningdesignsystem.com/downloads/) - Provided Package may not be most up to date, please see website. 
@@ -45,12 +45,12 @@ Salesforce - SLDS (Salesforce Lightning Design System)
         - Distributed by: [Salesforce UX](https://twitter.com/salesforceux)
         - More information can be found within the project by going to assets/external packages/salesforce-lightning-design-system-static-resource-2.11.9
 
-Chart.js
+##### Chart.js
     - Skills Tab uses Chart Js to simulate Salesforce Dashboard Elements
         - [Chart.js](https://www.chartjs.org/)
         - [SLDS Chart Guidelines](https://www.lightningdesignsystem.com/guidelines/charts/)
 
-Salesforce Web to Case
+##### Salesforce Web to Case
     - Contact Form utilizes Salesforce Standard Web-to-Case Funcationality, for full documentation pertaining to implementation see the following:
         - [Web-to-Case](https://help.salesforce.com/articleView?id=customize_casecapture.htm&type=5)
         - [Trailhead](https://trailhead.salesforce.com/en/content/learn/modules/service_lex/service_lex_channels)
