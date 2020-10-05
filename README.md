@@ -73,7 +73,6 @@ Below you will find requirements to replicate this project:
         - README
         - CNAME*
 
-* Used to Link to Custom Domain outside of Github
 
 ### Installing / Forking
 
