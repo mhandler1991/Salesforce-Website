@@ -146,7 +146,7 @@ Project Link: [https://github.com/mhandler1991/Salesforce-Website](https://githu
 
 
 
-### Setup to link Github page to customer domain
+### Setup to link Github page to custom domain
 
  - [https://richpauloo.github.io/2019-11-17-Linking-a-Custom-Domain-to-Github-Pages/](Setup)
  - [https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site#about-custom-domain-configuration](Github Documentation)
