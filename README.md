@@ -40,7 +40,7 @@ Below you will find requirements to replicate this project:
 ##### Salesforce - SLDS (Salesforce Lightning Design System)
 - This project is using the Spring '20 (SLDS 2.11.9) as its primary CSS to replicate standard Salesforce UI/UX
     - [Release Notes](https://www.lightningdesignsystem.com/release-notes/)
-    - [Download] (https://www.lightningdesignsystem.com/downloads/) - Provided Package may not be most up to date, please see website. 
+    - [Download](https://www.lightningdesignsystem.com/downloads/) - Provided Package may not be most up to date, please see website. 
     - [Salesforce Lightning Design System](https://www.lightningdesignsystem.com)
     - Distributed by: [Salesforce UX](https://twitter.com/salesforceux)
     - More information can be found within the project by going to assets/external packages/salesforce-lightning-design-system-static-resource-2.11.9
