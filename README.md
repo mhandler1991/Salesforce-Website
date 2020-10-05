@@ -71,8 +71,9 @@ Below you will find requirements to replicate this project:
         - index.html - Home Page
         - LICENSE
         - README
+        - CNAME*
 
-
+* Used to Link to Custom Domain outside of Github
 
 ### Installing / Forking
 
