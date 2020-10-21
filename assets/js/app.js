@@ -3,8 +3,26 @@
 // Website: MaxwellHandler.com
 // *****************
 
+// *******************************
+// DATA
+// *******************************    
 
-document.getElementById("description").innerHTML = "I live &#38; breathe Salesforce. I am a Salesforce Administrator and full stack developer with a focus in Salesforce Lightning Web Components.I have experience building custom &#38; stable Salesforce environments to cater to a companies specific needs, many from the ground-up. I haveworked in 10+ environments in both Classic and Lightning. I consider myself organized and able totranslate organizational, departmental, and user needs into sustainable Salesforce solutions.";
+const contactData = {
+    fName: "Maxwell",
+    lName: "Handler",
+    title: "Sr. Salesforce Administrator",
+    email: "Mhandler1991@gmail.com",
+    website: "MaxwellHandler.com"
+}
+
+//  Load Data
+document.getElementById("fName").innerHTML = contactData['fName'];
+document.getElementById("lName").innerHTML = contactData['lName'];
+document.getElementById("title").innerHTML = contactData['title'];
+document.getElementById("email").innerHTML = contactData['email'];
+document.getElementById("website").innerHTML = contactData['website'];
+
+
 
 
 // Define JSON Variable
@@ -29,7 +47,7 @@ var getJSON = function (url, callback) {
 
 function tabUpdate() {
 
-    console.log('Handeling those pesky tabs');
+    console.log('Handling those pesky tabs');
 
     // Get all Li Tabs
     let liArray = document.getElementsByClassName('slds-tabs_default__item');
@@ -172,27 +190,9 @@ function myskill() {
     })
 }
 
-
-// Log Image on Load
-function onload() {
-    //console.log('%c ', 'font-size:1000px; background:url(https://media.makeameme.org/created/who-the-hell-31edeu.jpg) no-repeat;');
-    console.log('Originally Created for MaxwellHandler.com');
-
-    // Get JSON
-    getJSON('https://api.github.com/users/mhandler1991/repos',
-        function (error, data) {
-            if (error) {
-                console.error('Mhandler Github Repo Result');
-                console.error(error);
-            } else if (data){
-                console.log('Mhandler Github Repo Result');
-                console.log(data);
-            } else {
-                console.log('Unknown Result from Github Repo Request');
-            }
-        });
-
-};
+// *******************************
+// OPEN CLOSE CONTACT ME
+// *******************************
 
 function openEmail(){
     console.log('Opening Email Utility...');
@@ -211,6 +211,10 @@ function closeEmail(){
     document.getElementById('emailbttn').classList.remove('slds-is-active');    
     console.log('Updated utility css');
 };
+
+// *******************************
+// ACTIVITY
+// *******************************
 
 function activityFunction(e){
 
@@ -262,7 +266,33 @@ function activityFunction(e){
         console.log('Shit... I dont know...');
 
     }
+
+
+// *******************************
+// ON LOAD
+// *******************************
+
+    // On Page Load
+    function onload() {
+    //console.log('%c ', 'font-size:1000px; background:url(https://media.makeameme.org/created/who-the-hell-31edeu.jpg) no-repeat;');
+    console.log('Originally Created for MaxwellHandler.com');
+
+    // Get JSON
+    getJSON('https://api.github.com/users/mhandler1991/repos',
+        function (error, data) {
+            if (error) {
+                console.error('Mhandler Github Repo Result');
+                console.error(error);
+            } else if (data){
+                console.log('Mhandler Github Repo Result');
+                console.log(data);
+            } else {
+                console.log('Unknown Result from Github Repo Request');
+            }
+        });
     
+    };
+
 }
 
 
