@@ -15,7 +15,7 @@ const contactData = {
     website: "MaxwellHandler.com"
 }
 
-//  Load Data
+//  Load Data - Contact Card
 document.getElementById("fName").innerHTML = contactData['fName'];
 document.getElementById("lName").innerHTML = contactData['lName'];
 document.getElementById("title").innerHTML = contactData['title'];
@@ -275,7 +275,7 @@ function activityFunction(e){
     // On Page Load
     function onload() {
     //console.log('%c ', 'font-size:1000px; background:url(https://media.makeameme.org/created/who-the-hell-31edeu.jpg) no-repeat;');
-    console.log('Originally Created for MaxwellHandler.com');
+    console.log('Originally Created by Maxwell Handler for MaxwellHandler.com');
 
     // Get JSON
     getJSON('https://api.github.com/users/mhandler1991/repos',
