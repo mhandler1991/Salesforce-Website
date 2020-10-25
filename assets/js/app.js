@@ -278,19 +278,18 @@ function activityFunction(e){
     console.log('Originally Created by Maxwell Handler for MaxwellHandler.com');
 
     // Get JSON
-    getJSON('https://api.github.com/users/mhandler1991/repos',
-        function (error, data) {
-            if (error) {
-                console.error('Mhandler Github Repo Result');
-                console.error(error);
-            } else if (data){
-                console.log('Mhandler Github Repo Result');
-                console.log(data);
-            } else {
-                console.log('Unknown Result from Github Repo Request');
-            }
-        });
-    
+    // getJSON('https://api.github.com/users/mhandler1991/repos',
+    //     function (error, data) {
+    //         if (error) {
+    //             console.error('Mhandler Github Repo Result');
+    //             console.error(error);
+    //         } else if (data){
+    //             console.log('Mhandler Github Repo Result');
+    //             console.log(data);
+    //         } else {
+    //             console.log('Unknown Result from Github Repo Request');
+    //         }
+    //     });
     };
 
 }
