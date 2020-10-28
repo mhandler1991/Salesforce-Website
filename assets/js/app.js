@@ -12,8 +12,12 @@ const contactData = {
     lName: "Handler",
     title: "Sr. Salesforce Administrator",
     email: "Mhandler1991@gmail.com",
-    website: "MaxwellHandler.com",
-    company: "National Funding"
+    website: "MaxwellHandler.com"
+}
+
+const detailData = {
+    company: "National Funding",
+    description: "Motivated and strategically-minded Salesforce expert capable of working independently and part of a diverse team to build stable and customized Salesforce environments. Amicable professional with a wide array of experience in multiple instances of Salesforce. Experience assisting and training users with a wide-array of knowledge within Salesforce. Eager and persistent employee constantly striving to expand personal knowledge and experience."
 }
 
 //  Load Data - Contact Card
@@ -22,8 +26,10 @@ document.getElementById("lName").innerHTML = contactData['lName'];
 document.getElementById("title").innerHTML = contactData['title'];
 document.getElementById("email").innerHTML = contactData['email'];
 document.getElementById("website").innerHTML = contactData['website'];
-document.getElementById("company").innerHTML = contactData['company'];
 
+// Load Data - Details Tab
+document.getElementById("company").innerHTML = detailData['company'];
+document.getElementById("description").innerHTML = detailData['description'];
 
 
 // Define JSON Variable

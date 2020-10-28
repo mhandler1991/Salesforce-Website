@@ -23,6 +23,10 @@
     margin: auto;
   }
 
+.description {
+  line-height: 1.3;
+}
+
 /* Form */
 input[type=text], select, textarea {
     width: 95%;
