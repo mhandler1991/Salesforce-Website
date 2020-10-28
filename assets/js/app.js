@@ -12,7 +12,8 @@ const contactData = {
     lName: "Handler",
     title: "Sr. Salesforce Administrator",
     email: "Mhandler1991@gmail.com",
-    website: "MaxwellHandler.com"
+    website: "MaxwellHandler.com",
+    company: "National Funding"
 }
 
 //  Load Data - Contact Card
@@ -21,7 +22,7 @@ document.getElementById("lName").innerHTML = contactData['lName'];
 document.getElementById("title").innerHTML = contactData['title'];
 document.getElementById("email").innerHTML = contactData['email'];
 document.getElementById("website").innerHTML = contactData['website'];
-
+document.getElementById("company").innerHTML = contactData['company'];
 
 
 
