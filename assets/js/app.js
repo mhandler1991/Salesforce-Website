@@ -11,7 +11,7 @@ const contactData = {
     fName: "Maxwell",
     lName: "Handler",
     title: "Sr. Salesforce Administrator",
-    email: "Mhandler1991@gmail.com",
+    email: "",
     website: "MaxwellHandler.com"
 }
 
