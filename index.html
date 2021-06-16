@@ -35,6 +35,13 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 
+    <!-- re CAPTCHA -->
+    <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+        <script src="https://www.google.com/recaptcha/api.js"></script>
+        <script>
+         function timestamp() { var response = document.getElementById("g-recaptcha-response"); if (response == null || response.value.trim() == "") {var elems = JSON.parse(document.getElementsByName("captcha_settings")[0].value);elems["ts"] = JSON.stringify(new Date().getTime());document.getElementsByName("captcha_settings")[0].value = JSON.stringify(elems); } } setInterval(timestamp, 500); 
+        </script>
+
 </head>
 
 <body onload="onload()">
@@ -1632,12 +1639,12 @@
                             <!-- Salesforce Web-to-Case -->
                             <div class="slds-form-element center" style="overflow-x: hidden;">
 
-                                <form action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8"
-                                    method="POST">
+                                <form action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST">
 
+                                    <input type=hidden name='captcha_settings' value='{"keyname":"google_reCAPTCHA","fallback":"true","orgId":"00D4R000001X5N5","ts":""}'>
                                     <input type=hidden name="orgid" value="00D4R000001X5N5">
-                                    <input type=hidden name="retURL" value="http://MaxwellHandler.com">
-
+                                    <input type=hidden name="retURL" value="http://maxwellhandler.com">
+                                    
                                     <!--  ----------------------------------------------------------------------  -->
                                     <!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
                                     <!--  these lines if you wish to test in debug mode.                          -->
@@ -1645,26 +1652,22 @@
                                     <!--  <input type="hidden" name="debugEmail"                                  -->
                                     <!--  value="mhandler1991@gmail.com">                                         -->
                                     <!--  ----------------------------------------------------------------------  -->
-
-                                    <label for="name" class="slds-form-element__label">Name</label><input id="name"
-                                        maxlength="80" name="name" size="20" type="text" /><br>
-
-                                    <label for="email" class="slds-form-element__label">Email</label><input id="email"
-                                        maxlength="80" name="email" size="20" type="text" /><br>
-
-                                    <label for="phone" class="slds-form-element__label">Phone</label><input id="phone"
-                                        maxlength="40" name="phone" size="20" type="text" /><br>
-
-                                    <label for="subject" class="slds-form-element__label">Subject</label><input
-                                        id="subject" maxlength="80" name="subject" size="20" type="text" /><br>
-
-                                    <label for="description"
-                                        class="slds-form-element__label">Description</label><textarea
-                                        name="description"></textarea><br>
-
-                                    <input type="submit" class="slds-button slds-button_neutral" name="submit">
-
+                                    
+                                    <label for="name">Contact Name</label><input  id="name" maxlength="80" name="name" size="20" type="text" /><br>
+                                    
+                                    <label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+                                    
+                                    <label for="phone">Phone</label><input  id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
+                                    
+                                    <label for="subject">Subject</label><input  id="subject" maxlength="80" name="subject" size="20" type="text" /><br>
+                                    
+                                    <label for="description">Description</label><textarea name="description"></textarea><br>
+                                    
+                                    <div class="g-recaptcha" data-sitekey="6Lc0mTcbAAAAAHEKTctbm0XQpV7_rg6maUunxbFd"></div><br>
+                                    <input type="submit" name="submit">
+                                    
                                 </form>
+
                             </div>
 
                             <br>
