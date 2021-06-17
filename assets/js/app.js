@@ -289,9 +289,9 @@ function activityFunction(e){
 // *******************************
 
     // On Page Load
-    function onload() {
+    //function onload() {
     //console.log('%c ', 'font-size:1000px; background:url(https://media.makeameme.org/created/who-the-hell-31edeu.jpg) no-repeat;');
-    console.log('Originally Created by Maxwell Handler for MaxwellHandler.com');
+    //console.log('Originally Created by Maxwell Handler for MaxwellHandler.com');
 
     // Get JSON
     // getJSON('https://api.github.com/users/mhandler1991/repos',
@@ -306,7 +306,7 @@ function activityFunction(e){
     //             console.log('Unknown Result from Github Repo Request');
     //         }
     //     });
-    };
+    //};
 
 }
 
