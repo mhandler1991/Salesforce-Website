@@ -57,10 +57,10 @@ Below you will find requirements to replicate this project:
 
 ##### Google reCAPTCHA
 - Salesforce Web to Case uses Google reCAPTCHA. Please refer to the following for additional information on implementation
-    -[How-To](https://medium.com/@terrystidbits2019/using-recaptcha-on-salesforce-web-to-lead-forms-81f1fd22dd06)
-    -[How-To 2.0](https://www.salesforcebolt.com/2020/03/how-to-add-captcha-in-web-to-lead.html)
-    -[How-To 3.0](https://www.terrystidbits.com/2017/09/27/using-recaptcha-salesforce-web-lead-forms/)
-    -[Salesforce Documentation](https://help.salesforce.com/articleView?id=sf.customizesupport_web_to_case_enable_recaptcha.htm&type=5)
+    - [How-To](https://medium.com/@terrystidbits2019/using-recaptcha-on-salesforce-web-to-lead-forms-81f1fd22dd06)
+    - [How-To 2.0](https://www.salesforcebolt.com/2020/03/how-to-add-captcha-in-web-to-lead.html)
+    - [How-To 3.0](https://www.terrystidbits.com/2017/09/27/using-recaptcha-salesforce-web-lead-forms/)
+    - [Salesforce Documentation](https://help.salesforce.com/articleView?id=sf.customizesupport_web_to_case_enable_recaptcha.htm&type=5)
 
 
 ### Contents
