@@ -29,7 +29,7 @@ Site
 
 
 Main Page
-![Image of Home](https://github.com/mhandler1991/Salesforce-Website/blob/master/assets/images/readme/Homepage.jpg?raw=true)
+![Image of Home](https://github.com/mhandler1991/Salesforce-Website/blob/master/assets/images/readme/Website 2021.06.16.jpg?raw=true)
 
 
 
