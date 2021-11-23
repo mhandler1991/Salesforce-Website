@@ -10,7 +10,7 @@
 const contactData = {
     fName: "Maxwell",
     lName: "Handler",
-    title: "Sr. Salesforce Administrator",
+    title: "Technical Product Manager",
     email: "",
     website: "MaxwellHandler.com"
 }
